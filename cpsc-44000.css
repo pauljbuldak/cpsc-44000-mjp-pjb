@@ -41,6 +41,19 @@
     transform: translateY(0px);
 }
 
+.columncontainer {
+    padding: 20px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+.column {
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+}
+.headingleft {border-right: 1px solid black;}
+
 a:link { text-decoration: underline; color: black; }
 a:visited { text-decoration: none; color: black; }
 a:hover { text-decoration: underline; color: #808080; }
